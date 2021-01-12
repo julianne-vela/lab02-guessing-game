@@ -1,6 +1,3 @@
-const guess = document.getElementById('user-input');
-const correctNumber = document.getElementById('random-number');
-
 export function compareNumbers(guess, correctNumber) {
     if (guess < correctNumber) {
         return -1;
