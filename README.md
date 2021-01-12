@@ -12,9 +12,13 @@
 
 ### JavaScript Plan
 1) Grab the DOM Elements
+    a. userInput
+    b. submitButton
+    c. results
+    d. remainingGuesses 
 1) Initialize State
-    a) Random number: n
-    b) Guesses remaining: 4
+    a. Random number: n
+    b. Guesses remaining: 4
 1) Add event listener to button (On-click)
     - STATE:  
         a. decrement remaining guesses (--)
