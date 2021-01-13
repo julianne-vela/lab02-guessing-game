@@ -20,10 +20,17 @@
     </header>
     <main>
         <section class="main-section">
-            <div>You have <span id="remaining-guesses"></span> guesses remaining!</div>
+            <details>
+                <summary>Instructions for Guessing Game</summary>
+                <p>
+                    Enter your guess into the number field and press the button to check your answer. Be careful,
+                    though, you've only got 4 guesses to get it right!
+                </p>
+            </details>
+            <div class="hidden" id="user-hint"></div>
             <input id="user-input" type="number">
             <button id="submit-button">Guess!</button>
-            <div class="hidden" id="user-hint">Too high or Too Low</div>
+
             <div id="random-number"></div>
             <div class="hidden" id="final-results">Win or Lose</div>
         </section>
